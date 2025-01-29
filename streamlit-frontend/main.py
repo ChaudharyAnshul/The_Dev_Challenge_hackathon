@@ -19,12 +19,12 @@ PAGES = {
 }
 
 def main():
-    st.set_page_config(page_title="Job Match")
+    st.set_page_config(page_title="AI Job Sync")
     if 'logged_in' not in st.session_state:
         st.session_state['logged_in'] = False
     
     if not st.session_state['logged_in']:      
-        st.title("Job Match")
+        st.title("AI Job Sync")
         st.title("Login/Signup")
         tab1, tab2 = st.tabs(["Login", "Signup"])
         
