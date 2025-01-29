@@ -8,7 +8,7 @@ config.read('./configuration.properties')
 
 def validate_email(email):
     # Email must end with @northeastern.edu
-    return re.match(r"^[a-zA-Z0-9._%+-]+@northeastern\.edu$", email)
+    return re.match(r"^[a-zA-Z0-9._%+-]+@gmail\.com$", email)
 
 
 def validate_password(password):
@@ -31,7 +31,7 @@ def signup_page():
         submitted = st.form_submit_button("Signup")
         if submitted:
             if not validate_email(email):
-                st.error("Email must be a valid Northeastern University email.")
+                st.error("Email must be a valid gmail email.")
             elif not validate_username(username):
                 st.error("Username must start with a letter and contain only letters, numbers, and underscore.")
             elif not validate_password(password):
