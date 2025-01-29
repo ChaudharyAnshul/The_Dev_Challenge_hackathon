@@ -132,7 +132,7 @@ def scrape_indeed_jobs():
     '''
     try:
         jobs_df = pd.DataFrame(columns=["job_id","job_title","company","job_location","min_salary","max_salary","employment_type","source","job_url","date_posted","job_desc"])
-        job_titles = ['Data Engineer','Software Engineer','Data Analyst','Data Scientist','Backend Developer','UI UX Developer','Financial Analyst','Full stack developer','Supply Chain Manager','Front End Developer']
+        job_titles = ['Data Engineer','Software Engineer','Data Analyst','Data Scientist','Backend Developer','UI UX Developer','Financial Analyst','Full stack developer','Supply Chain Manager','Front End Developer','Devops Engineer', 'Product Manager']
         location = "United%20States"
         
         for title in job_titles:
