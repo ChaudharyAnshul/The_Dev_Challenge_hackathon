@@ -4,7 +4,7 @@
 
 [![Application](https://img.shields.io/badge/application-4285F4?style=for-the-badge&logo=codelabs&logoColor=white)](http://homelab.chaudharyanshul.com:8501/)
 
-[![Demo](https://img.shields.io/badge/Demo_Link-808080?style=for-the-badge&logo=YouTube&logoColor=white)]()
+[![Demo](https://img.shields.io/badge/Demo_Link-808080?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtu.be/ChYG-aspZIg)
 
 ## Technologies Used
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-FF9900?style=for-the-badge)](https://huggingface.co/docs/transformers/en/model_doc/bert)
