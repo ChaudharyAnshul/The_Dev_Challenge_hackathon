@@ -37,8 +37,7 @@ def clean_and_stage(jobs_df):
 def scrape_linkedin_jobs():
     try:
         jobs_df = pd.DataFrame(columns=["job_id","job_title","company","job_location","min_salary","max_salary","employment_type","source","job_url","date_posted","job_desc"])
-        job_titles = ['Data Engineer','Software Engineer','Data Analyst','Data Scientist','Backend Developer','UI UX Developer','Financial Analyst','Full stack developer','Supply Chain Manager']
-        # job_titles = ['Devops Engineer', 'Product Manager', 'Developer']
+        job_titles = ['Data Engineer','Software Engineer','Data Analyst','Data Scientist','Backend Developer','UI UX Developer','Financial Analyst','Full stack developer','Supply Chain Manager','Front End Developer','Devops Engineer', 'Product Manager']
         location = "United States"
         fail_response_count = 0
         
